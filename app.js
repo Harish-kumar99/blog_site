@@ -13,7 +13,7 @@ const app = express();
 
 const dbURI='mongodb+srv://netninja:12345@nodetuts.4f32i.mongodb.net/node-tuts?retryWrites=true&w=majority'
 mongoose.connect(dbURI,{useNewUrlParser:true,useUnifiedTopology:true})
-.then((result)=>app.listen(312))
+.then((result)=>app.listen(3000))
 .catch((err)=>console.log(err))
 
 // express app
